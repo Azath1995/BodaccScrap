@@ -1,0 +1,583 @@
+{
+  "_comment": "Cabinets publishing assets through a Gemweb RSS feed (/rss/actif). name = spelling used in the BODACC liquidateur text; aliases = other spellings of the same cabinet. Two cabinets must never share a domain.",
+  "cabinets": [
+    {
+      "name": "BTSG",
+      "domain": "https://www.btsg.eu",
+      "aliases": [
+        "Btsg2",
+        "B T S G 2",
+        "B T S G2",
+        "B.T.S.G.Mission"
+      ]
+    },
+    {
+      "name": "4R Solutions",
+      "domain": "https://www.4rsolutions.fr"
+    },
+    {
+      "name": "Les Mandataires",
+      "domain": "https://sud.lesmandataires.com"
+    },
+    {
+      "name": "Louis & Lageat",
+      "domain": "https://www.louis-lageat.fr",
+      "aliases": [
+        "J.P Louis & A.Lageat",
+        "Lageat Anne",
+        "Jp. Louis & a. Lageat"
+      ]
+    },
+    {
+      "name": "Benoit & Associés",
+      "domain": "https://www.etude-benoit-amizet.fr",
+      "aliases": [
+        "Béatrice Amizet"
+      ]
+    },
+    {
+      "name": "BVMJ",
+      "domain": "https://www.bally-mj.fr",
+      "aliases": [
+        "Bally M.J.",
+        "Bally MJ"
+      ]
+    },
+    {
+      "name": "CHARLENE LOUVEAU",
+      "domain": "https://www.clmj.eu"
+    },
+    {
+      "name": "Etude Balincourt",
+      "domain": "https://www.etudebalincourt.fr",
+      "aliases": [
+        "Balincourt"
+      ]
+    },
+    {
+      "name": "MJ & ASSOCIES",
+      "domain": "https://www.mj-dijon.fr"
+    },
+    {
+      "name": "MJ2A",
+      "domain": "https://www.mjc2a.fr",
+      "aliases": [
+        "Mjc2a"
+      ]
+    },
+    {
+      "name": "Perspectives",
+      "domain": "https://www.perspectives-mj.fr"
+    },
+    {
+      "name": "Rouhier",
+      "domain": "https://connexion.rouhier.fr"
+    },
+    {
+      "name": "Deslorieux",
+      "domain": "https://www.etude-deslorieux.fr",
+      "aliases": [
+        "Delorieux"
+      ]
+    },
+    {
+      "name": "SCP DAVAL-HERODIN",
+      "domain": "https://www.mjbfc.fr",
+      "aliases": [
+        "Herodin"
+      ]
+    },
+    {
+      "name": "Etude Argos",
+      "domain": "https://www.argosmj.fr",
+      "aliases": [
+        "Argos"
+      ]
+    },
+    {
+      "name": "BDR & Associes",
+      "domain": "https://www.bdrmj.fr"
+    },
+    {
+      "name": "De Keating",
+      "domain": "https://www.selarldekeating.fr"
+    },
+    {
+      "name": "Ekip",
+      "domain": "https://www.ekip.eu"
+    },
+    {
+      "name": "Ruffin",
+      "domain": "https://www.etude-ruffin.com"
+    },
+    {
+      "name": "Spagnolo Stephan",
+      "domain": "https://www.mj3s.eu"
+    },
+    {
+      "name": "Victor Castagna",
+      "domain": "https://www.castagna-mj.fr"
+    },
+    {
+      "name": "GEMMJ",
+      "domain": "https://www.gemmj.fr"
+    },
+    {
+      "name": "C.BASSE",
+      "domain": "https://www.mandataire-judiciaire.com",
+      "aliases": [
+        "Basse Christophe",
+        "Christophe Basse"
+      ]
+    },
+    {
+      "name": "Denis Hazane",
+      "domain": "https://www.scpanha.com",
+      "aliases": [
+        "D Hazane",
+        "Philippe Angel",
+        "Angel Hazane Duval",
+        "Angel Hazane S Duval"
+      ]
+    },
+    {
+      "name": "MJ Synergie",
+      "domain": "https://www.mj-synergie.fr",
+      "aliases": [
+        "MJSynergie",
+        "SYNERGIE"
+      ]
+    },
+    {
+      "name": "Philippe Serrano",
+      "domain": "https://www.etude-serrano.com",
+      "aliases": [
+        "Serrano Philippe"
+      ]
+    },
+    {
+      "name": "Fides",
+      "domain": "https://intervenant.fides.fr"
+    },
+    {
+      "name": "Marie Dubois",
+      "domain": "https://www.dubois-mj.eu"
+    },
+    {
+      "name": "Jerome Allais",
+      "domain": "https://www.allais-mj.fr"
+    },
+    {
+      "name": "Roumezi & Associes",
+      "domain": "https://www.mjroumezi.fr",
+      "aliases": [
+        "Roumezi Christophe",
+        "Christophe Roumezi"
+      ]
+    },
+    {
+      "name": "Berthelot & Associes",
+      "domain": "https://www.berthelot-mj.eu",
+      "aliases": [
+        "Berthelot"
+      ]
+    },
+    {
+      "name": "MJS Partners",
+      "domain": "https://www.etude-soinne.fr",
+      "aliases": [
+        "M.J.S. Partners",
+        "Soinne"
+      ]
+    },
+    {
+      "name": "Humeau",
+      "domain": "https://www.selarl-humeau.com"
+    },
+    {
+      "name": "Aegis",
+      "domain": "https://www.aegis-mja.com"
+    },
+    {
+      "name": "Delphine Raymond",
+      "domain": "https://www.mj-atlantique.fr"
+    },
+    {
+      "name": "Guigon Associes",
+      "domain": "https://www.etude-pguigon-mj.fr",
+      "aliases": [
+        "Pascal Guigon"
+      ]
+    },
+    {
+      "name": "LGA",
+      "domain": "https://www.lga-mj.fr",
+      "aliases": [
+        "Nicolas Leuret",
+        "Leuret Nicolas"
+      ]
+    },
+    {
+      "name": "MJ Ouest",
+      "domain": "https://www.mj-ouest.fr"
+    },
+    {
+      "name": "Blanc MJ-O",
+      "domain": "https://www.mj-o.fr",
+      "aliases": [
+        "Mjo"
+      ]
+    },
+    {
+      "name": "Alliance MJ",
+      "domain": "https://www.alliancemj.eu"
+    },
+    {
+      "name": "Souchon",
+      "domain": "https://www.etude-souchon.fr"
+    },
+    {
+      "name": "MJ Martin",
+      "domain": "https://www.mjmartin.fr"
+    },
+    {
+      "name": "Philippe Delaere",
+      "domain": "https://www.scp-delaere.fr"
+    },
+    {
+      "name": "Cedigep",
+      "domain": "https://www.cedigep.fr"
+    },
+    {
+      "name": "Miquel-Aras",
+      "domain": "https://www.mj-ma.fr",
+      "aliases": [
+        "Simon Miquel"
+      ]
+    },
+    {
+      "name": "S21Y",
+      "domain": "https://www.s21y.com"
+    },
+    {
+      "name": "Herbaut-Pecou",
+      "domain": "https://www.etudemj.com"
+    },
+    {
+      "name": "Bodelet",
+      "domain": "https://www.etude-bodelet.fr"
+    },
+    {
+      "name": "Deloret Constant",
+      "domain": "https://www.selarldc.fr"
+    },
+    {
+      "name": "Verrecchia",
+      "domain": "https://www.mj13.fr"
+    },
+    {
+      "name": "LMJ",
+      "domain": "https://www.l-mj.fr"
+    },
+    {
+      "name": "Silvestri-Baujet",
+      "domain": "https://www.mjsb.fr",
+      "aliases": [
+        "Silvestri"
+      ]
+    },
+    {
+      "name": "C.L.R. & Associes",
+      "domain": "https://www.clr-associes.fr"
+    },
+    {
+      "name": "Judith Doutressoulle",
+      "domain": "https://www.jdmj.fr"
+    },
+    {
+      "name": "Athena",
+      "domain": "https://www.athena-mj.fr"
+    },
+    {
+      "name": "Mars",
+      "domain": "https://www.selarl-mars.fr"
+    },
+    {
+      "name": "Egide",
+      "domain": "https://www.egide.com"
+    },
+    {
+      "name": "Mandateam",
+      "domain": "https://www.mandateam.fr"
+    },
+    {
+      "name": "MJ Solutio",
+      "domain": "https://www.mjsolutio.fr"
+    },
+    {
+      "name": "Philae",
+      "domain": "https://www.philaemj.fr"
+    },
+    {
+      "name": "BGH",
+      "domain": "https://www.etudebgh.fr",
+      "aliases": [
+        "B G H",
+        "Bouvet & Guyonnet"
+      ]
+    },
+    {
+      "name": "BR Associes",
+      "domain": "https://www.br-associes.net"
+    },
+    {
+      "name": "Beatrice Pascual",
+      "domain": "https://www.pascual-beatrice.fr",
+      "aliases": [
+        "Pascual Beatrice"
+      ]
+    },
+    {
+      "name": "Bleu Sud",
+      "domain": "https://www.bleusud.eu"
+    },
+    {
+      "name": "Guerin et associées",
+      "domain": "https://www.dominique-guerin.fr"
+    },
+    {
+      "name": "Mjuris",
+      "domain": "https://www.mjuris.fr"
+    },
+    {
+      "name": "Gopmj",
+      "domain": "https://www.gopmj.fr"
+    },
+    {
+      "name": "SLEMJ & Associes",
+      "domain": "https://www.slemj.fr"
+    },
+    {
+      "name": "Alliance",
+      "domain": "https://www.etude-alliance.eu"
+    },
+    {
+      "name": "Archibald",
+      "domain": "https://www.etude-laure.com"
+    },
+    {
+      "name": "Hélène Gascon",
+      "domain": "https://www.etude-gascon.fr",
+      "aliases": [
+        "Gascon Hélène"
+      ]
+    },
+    {
+      "name": "Hidoux Jean-Charles",
+      "domain": "https://www.etude-hidoux.com",
+      "aliases": [
+        "Jean-Charles Hidoux"
+      ]
+    },
+    {
+      "name": "Perin Borkowiak",
+      "domain": "https://www.perin-borkowiak.fr",
+      "aliases": [
+        "Yvon Perin",
+        "Yvon Perin et Jean-Philippe Borkowiak",
+        "Borkowiak Jean-Philippe"
+      ]
+    },
+    {
+      "name": "Cecile Jouin",
+      "domain": "https://www.mj-jouin.fr"
+    },
+    {
+      "name": "Ep & Associes",
+      "domain": "https://www.ep-associes.com"
+    },
+    {
+      "name": "Géraldine Donnais",
+      "domain": "https://www.mj-donnais.fr"
+    },
+    {
+      "name": "Pierre Henri Frontil",
+      "domain": "https://www.mj-frontil.fr"
+    },
+    {
+      "name": "Christine Dauverchain",
+      "domain": "https://www.cd-mj.fr"
+    },
+    {
+      "name": "Funel et Associes",
+      "domain": "https://www.etude-funel.fr"
+    },
+    {
+      "name": "Julien Payen",
+      "domain": "https://www.etude-payen.fr"
+    },
+    {
+      "name": "Mj Lefort",
+      "domain": "https://www.mjlefort.fr"
+    },
+    {
+      "name": "Alpha Mj",
+      "domain": "https://www.alphamj.fr"
+    },
+    {
+      "name": "Montravers yang-Ting",
+      "domain": "https://www.a2mj.fr"
+    },
+    {
+      "name": "Hirou",
+      "domain": "https://www.etude-hirou.com"
+    },
+    {
+      "name": "Jacques De Latude",
+      "domain": "https://www.mjdl.fr",
+      "aliases": [
+        "De Latude Jacques"
+      ]
+    },
+    {
+      "name": "PELLIER",
+      "domain": "https://www.etude-pellier.com"
+    },
+    {
+      "name": "Etude Bouvet-Guyonnet-Hardy",
+      "domain": "https://www.bouvet-guyonnet.fr"
+    },
+    {
+      "name": "Canet",
+      "domain": "https://www.mjfr.fr"
+    },
+    {
+      "name": "Brucelle Charles",
+      "domain": "https://www.mj08.fr"
+    },
+    {
+      "name": "MARTINEAU Laetitia",
+      "domain": "https://www.etude-martineau.fr",
+      "aliases": [
+        "Laetitia MARTINEAU"
+      ]
+    },
+    {
+      "name": "Lafarge Sophie",
+      "domain": "https://www.mj-lafarge.fr"
+    },
+    {
+      "name": "Catherine Vincent",
+      "domain": "https://www.c-vincent.fr"
+    },
+    {
+      "name": "GANGLOFF ET NARDI",
+      "domain": "https://www.gangloffetnardi.fr",
+      "aliases": [
+        "Gangloff",
+        "Nardi"
+      ]
+    },
+    {
+      "name": "Laura Lafon",
+      "domain": "https://www.mandatairesjudiciaires.eu"
+    },
+    {
+      "name": "MJPA",
+      "domain": "https://www.mjpa.fr"
+    },
+    {
+      "name": "Cleoval",
+      "domain": "https://www.cleoval.fr"
+    },
+    {
+      "name": "Union MJ",
+      "domain": "https://www.union-mj.fr"
+    },
+    {
+      "name": "Zanni & Associes",
+      "domain": "https://www.etude-zanni.com",
+      "aliases": [
+        "Olivier Zanni",
+        "Zanni"
+      ]
+    },
+    {
+      "name": "MJ de l'Allier",
+      "domain": "https://www.etuderaynaud.fr"
+    },
+    {
+      "name": "Melanie Krebs",
+      "domain": "https://www.mj-krebs.fr"
+    },
+    {
+      "name": "Urbain Associes",
+      "domain": "https://www.urbain-associes.fr",
+      "aliases": [
+        "Paul Urbain"
+      ]
+    },
+    {
+      "name": "MJ Juralp",
+      "domain": "https://www.mj-juralp.fr"
+    },
+    {
+      "name": "GM",
+      "domain": "https://mj-gm.fr"
+    },
+    {
+      "name": "MMJ",
+      "domain": "https://www.mandin-mj.com"
+    },
+    {
+      "name": "Odile Stutz",
+      "domain": "https://www.scp-stutz.fr"
+    },
+    {
+      "name": "LH & Associes",
+      "domain": "https://www.etudelh.com",
+      "aliases": [
+        "Henon"
+      ]
+    },
+    {
+      "name": "Marc Ferrando",
+      "domain": "https://www.marcferrando.fr"
+    },
+    {
+      "name": "Atoumo Mj",
+      "domain": "https://www.atoumo-mj.fr"
+    },
+    {
+      "name": "Maroccou Patrick",
+      "domain": "https://www.etude-maroccou.fr",
+      "aliases": [
+        "Patrick Maroccou"
+      ]
+    },
+    {
+      "name": "Saulnier",
+      "domain": "https://www.saulnierponroy.fr",
+      "aliases": [
+        "Ponroy"
+      ]
+    },
+    {
+      "name": "Koch & Associes",
+      "domain": "https://www.koch-associes.fr",
+      "aliases": [
+        "Koch"
+      ]
+    },
+    {
+      "name": "Axyme",
+      "domain": "https://www.axyme.fr"
+    }
+  ],
+  "pending": {},
+  "_comment_a_verifier": "Liquidators seen in the BODACC that are not in the registry and have not been checked yet: name as written in the BODACC -> number of liquidations. No domain: never read by update. Move a name to cabinets once its Gemweb site is found (see pending for those already checked).",
+  "a_verifier": {
+    "Selarl Zephyrin Quorum": 3,
+    "Maître Octave Quillard": 1
+  }
+}

@@ -1,0 +1,9 @@
+.venv/
+.idea/
+__pycache__/
+.pytest_cache/
+data/
+.vscode/
+*.egg-info/
+# clés et mots de passe locaux (voir .env.example) : jamais dans git
+.env
