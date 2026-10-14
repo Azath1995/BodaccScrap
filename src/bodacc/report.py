@@ -6,7 +6,10 @@
     python -m bodacc.report vehicles --cabinet lga --carburant diesel --lieu 33220
     python -m bodacc.report vehicles --marque renault --since 2026-09-19 --limit 100
     python -m bodacc.report vehicles --csv data/exports/vehicules.csv # tout exporter (ouvrable dans Excel)
+    python -m bodacc.report vehicles --destination "87000 Limoges"   # + distance et coût de transport estimé (fourchette)
     python -m bodacc.report unmatched                           # liquidateurs sans cabinet du registre
+
+La colonne « cote » vient des cotes saisies à la main avec `python -m bodacc.cote`.
 """
 import argparse
 import csv
@@ -150,9 +153,12 @@ def write_csv(rows, path, columns=CSV_COLUMNS):
     return path
 
 
+TRANSPORT_TABLE = [("km_route", "km route"), ("transport", "transport €")]
+TRANSPORT_CSV = ["km_route", "transport_min", "transport_max"]
 MARKET_TABLE = [("marche", "marché € (n)")]
 MARKET_CSV = ["marche_median", "marche_bas", "marche_haut", "marche_n", "marche_critere"]
 XLSX_HEADERS = {**dict(TABLE_COLUMNS), "estimation": "estimation €", "date_limite_offre": "date limite offre", "url_detail": "lien",
+                "km_route": "km route", "transport": "transport €", "transport_min": "transport min €", "transport_max": "transport max €",
                 "marche_median": "marché médiane €", "marche_bas": "marché bas €", "marche_haut": "marché haut €", "marche_n": "annonces comparées",
                 "marche_critere": "critère de comparaison", "cote_source": "source de la cote"}
 XLSX_WIDTHS = {"cabinet": 22, "lieu": 30, "titre": 45, "description": 70, "estimation": 16, "url_detail": 40}
@@ -211,7 +217,7 @@ def write_csv_or_explain(rows, path, columns=CSV_COLUMNS):
         )
 
 
-def main(argv=None, market=None):
+def main(argv=None, geocoder=None, market=None):
     parser = argparse.ArgumentParser(description="Consulte la base BODACC.")
     parser.add_argument("--db", default=DB_PATH, help="fichier SQLite (défaut : data/bodacc.db)")
     commands = parser.add_subparsers(dest="command", required=True)
@@ -231,6 +237,7 @@ def main(argv=None, market=None):
     veh.add_argument("--max-price", type=float, help="prix maximum en euros")
     veh.add_argument("--min-km", type=int, help="kilométrage minimum")
     veh.add_argument("--max-km", type=int, help="kilométrage maximum")
+    veh.add_argument("--destination", help="lieu de livraison (ex : « 87000 Limoges ») : ajoute la distance et une fourchette de coût de transport")
     veh.add_argument("--market", action="store_true",
                      help="ajoute le prix de marché (médiane d'annonces Leboncoin comparables, via Carapis ; clé dans .env)")
     veh.add_argument("--no-links", action="store_true",
@@ -268,6 +275,15 @@ def main(argv=None, market=None):
 
             table_columns, export_columns = TABLE_COLUMNS, CSV_COLUMNS
             exporting = bool(args.csv or args.xlsx)
+            if args.destination:
+                from bodacc import transport        # ici et pas en tête : prospects.search (que transport utilise) importe ce module
+                try:
+                    transport.annotate(rows if exporting else rows[: args.limit], args.destination, geocoder or transport.Geocoder())
+                except transport.TransportError as error:
+                    raise SystemExit(str(error))
+                table_columns, export_columns = TABLE_COLUMNS + TRANSPORT_TABLE, CSV_COLUMNS + TRANSPORT_CSV
+                note += (f"\nTransport vers {args.destination} : fourchette estimée pour une voiture standard qui roule (convoyage, tout compris), "
+                         "pas un devis (voir bodacc/transport.py).")
             if args.market:
                 from bodacc import market as market_module
                 try:
